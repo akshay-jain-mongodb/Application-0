@@ -1,0 +1,17 @@
+{
+    "name": "mongodb-atlas",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "myAtlasClusterEDU",
+        "namespacePreimageConfigs": [
+            {
+                "dbName": "mygrocerylist",
+                "collectionName": "user",
+                "recordPreimages": true
+            }
+        ],
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
