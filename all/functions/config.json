@@ -1,0 +1,46 @@
+[
+    {
+        "name": "TRIG_CLNM_MAST_SUBR_D",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_SUBR_I",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_SUBR_U",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_TRAN_BH_D",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_TRAN_BH_I",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_TRAN_BH_U",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_TRAN_AH_D",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_MAST_TRAN_AH_I",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_PYMT_D",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_PYMT_I",
+        "private": true
+    },
+    {
+        "name": "TRIG_CLNM_PYMT_U",
+        "private": true
+    }
+]

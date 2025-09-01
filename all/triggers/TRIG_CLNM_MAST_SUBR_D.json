@@ -1,17 +1,16 @@
 {
-    "name": "Trigger_On_User_Insert_Perfrom_Audit_Insert",
+    "name": "TRIG_CLNM_MAST_SUBR_D",
     "type": "DATABASE",
     "disabled": false,
     "config": {
-        "collection": "user",
-        "database": "mygrocerylist",
+        "collection": "CLNM_MAST_SUBR",
+        "database": "OPUS_SCRUB",
         "full_document": true,
         "full_document_before_change": true,
         "match": {},
         "maximum_throughput": false,
         "operation_types": [
-            "INSERT",
-            "UPDATE"
+            "DELETE"
         ],
         "project": {},
         "service_name": "mongodb-atlas",
@@ -22,7 +21,7 @@
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "myFunc"
+                "function_name": "TRIG_CLNM_MAST_SUBR_D"
             }
         }
     }
